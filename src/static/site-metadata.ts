@@ -15,10 +15,10 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page',
-  siteUrl: 'https://yihong.run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-  description: 'Personal site and blog',
+  siteTitle: 'Motion Journal',
+  siteUrl: 'https://motion.arayr.com',
+  logo: 'https://arayr.com/pingu-swinging-a-sword.png',
+  description: 'Tracking my journey through sports and training',
   navLinks: [
     {
       name: 'Summary',
@@ -26,11 +26,11 @@ const data: ISiteMetadataResult = {
     },
     {
       name: 'Blog',
-      url: 'https://github.com/yihong0618/gitblog',
+      url: 'https://arayr.com',
     },
     {
       name: 'About',
-      url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+      url: '${getBasePath()}/about.html',
     },
   ],
 };
