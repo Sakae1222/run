@@ -1,5 +1,5 @@
-import { ReactComponent as EndSvg } from '@assets/end.svg';
-import { ReactComponent as StartSvg } from '@assets/start.svg';
+//import { ReactComponent as EndSvg } from '@assets/end.svg';
+//import { ReactComponent as StartSvg } from '@assets/start.svg';
 import { Marker } from 'react-map-gl';
 import styles from './style.module.css';
 
@@ -31,7 +31,7 @@ const RunMarker = ({
             maxWidth: '25px',
           }}
         >
-          <StartSvg className={styles.locationSVG} />
+          <div className={styles.locationSVG} />
         </div>
       </Marker>
       <Marker key="maker_end" longitude={endLon} latitude={endLat}>
@@ -41,7 +41,7 @@ const RunMarker = ({
             maxWidth: '25px',
           }}
         >
-          <EndSvg className={styles.locationSVG} />
+          <div className={styles.locationSVG} />
         </div>
       </Marker>
     </>

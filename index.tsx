@@ -21,8 +21,7 @@ import { useNavigate } from 'react-router-dom';
 import activities from '@/static/activities.json';
 import styles from './style.module.css';
 import { ACTIVITY_TOTAL, LOADING_TEXT } from '@/utils/const';
-//import { totalStat, yearSummaryStats } from '@assets/index';
-import activities from "@/static/activities.json";
+import { totalStat, yearSummaryStats } from '@assets/index';
 import { loadSvgComponent } from '@/utils/svgUtils';
 import { SHOW_ELEVATION_GAIN, HOME_PAGE_TITLE } from '@/utils/const';
 import RoutePreview from '@/components/RoutePreview';
@@ -30,10 +29,6 @@ import { Activity } from '@/utils/utils';
 // Layout constants (avoid magic numbers)
 const ITEM_WIDTH = 280;
 const ITEM_GAP = 20;
-
-const totalStat = activities;
-const yearSummaryStats = [];
-
 
 const VIRTUAL_LIST_STYLES = {
   horizontalScrollBar: {},
@@ -730,7 +725,7 @@ const ActivityList: React.FC = () => {
         </select>
       </div>
 
-      {interval === 'life' && (
+     {false && interval === 'life' && (
         <div className={styles.lifeContainer}>
           {/* Year selector buttons */}
           <div className={styles.yearSelector}>
