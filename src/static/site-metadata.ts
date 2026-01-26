@@ -15,7 +15,7 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Ray's Motion Journal',
+  siteTitle: "Ray's Motion Journal",
   siteUrl: 'https://motion.arayr.com',
   logo: 'https://arayr.com/pingu-swinging-a-sword.png',
   description: 'Personal site',
