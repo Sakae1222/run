@@ -15,10 +15,10 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Run',
-  siteUrl: 'https://ray.run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-  description: 'Personal site and blog',
+  siteTitle: 'Ray's Motion Journal',
+  siteUrl: 'https://motion.arayr.com',
+  logo: 'https://arayr.com/pingu-swinging-a-sword.png',
+  description: 'Personal site',
   navLinks: [
     {
       name: 'Summary',
@@ -26,12 +26,12 @@ const data: ISiteMetadataResult = {
     },
     {
       name: 'Blog',
-      url: 'https://sakae1222.github.io',
+      url: 'https://arayr.com',
     },
-    {
-      name: 'About',
-      url: 'https://sakae1222.github.io',
-    },
+//    {
+//      name: 'About',
+//      url: '',
+//    },
   ],
 };
 
